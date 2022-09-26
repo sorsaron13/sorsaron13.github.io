@@ -48,6 +48,30 @@
                 text-decoration:none;
                 
             }
+        .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
         
 
         
@@ -58,12 +82,16 @@
     <h2>10/I osztályos tanuló az SZTE Ságvári Endre gimnáziumban</h2>
     <a href="https://github.com/sorsaron13">
     <button1 style="background-color:aqua;color: white;border:none;border-radius: 12px;font-family: verdana;font-size: 30px;margin-left: 650px;text-decoration:none;">
+        <span>
         Github profil
+        </span>
     </button1>
     </a>
     <a href="SG iDiák.html">
     <button2 style="background-color:aqua;color: white;border:none;border-radius: 12px;font-family: verdana;font-size: 30px;margin-left: 25px;text-decoration:none;">
+        <span>
         Órarend
+        </span>
     </button2>
     </a>
    
