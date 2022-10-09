@@ -1,6 +1,6 @@
 n = 60, m = 40
-x = 50, y = 20, xd = -1, yd = 0
-x2 = 20, y2 = 30, xd2 = 1, yd2 = 0
+x = 50, y = 15, xd = -1, yd = 0
+x2 = 10, y2 = 25, xd2 = 1, yd2 = 0
 
 table = Array(n).fill().map(() => Array(n).fill())
 to = document.getElementById('t'), to.innerHTML = `
