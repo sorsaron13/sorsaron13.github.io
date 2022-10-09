@@ -32,28 +32,28 @@
             width: 200px;
             height: 200px;
             
-        a{
+        a1,a2,a3{
          text-decoration:none;
          transition: all 0.5s;
          cursor: pointer;
         
         }
-         .a:hover{
+         .a1,.a2,.a3:hover{
           background-color: yellow;
           text-decoration:none;
         }
-         .button{
+         .button1,.button2,.button3{
           text-decoration:none;
                 
         }
-         .button span {
+         .button1,.button2,.button3 span {
             cursor: pointer;
             display: inline-block;
             position: relative;
             transition: 0.5s;
         }
 
-         .button span:after {
+         .button1,.button2,.button3 span:after {
           content: '\00bb';
           position: absolute;
           opacity: 0;
@@ -62,11 +62,11 @@
           transition: 0.5s;
         }
 
-         .button:hover span {
+         .button1,.button2,.button3:hover span {
           padding-right: 25px;
         }
 
-          .button:hover span:after {
+          .button1,.button2,.button3:hover span:after {
            opacity: 1;
            right: 0;
         }
@@ -78,27 +78,27 @@
 <body>
     <h1>Sors Áron</h1>
     <h2>10/I osztályos tanuló az SZTE Ságvári Endre gimnáziumban</h2>
-    <a href="https://github.com/sorsaron13">
+    <a1 href="https://github.com/sorsaron13">
     <button1 style="background-color:aqua;color: white;border:none;border-radius: 12px;font-family: verdana;font-size: 30px;margin-left: 650px;text-decoration:none;">
         <span>
         Github profil
         </span>
     </button1>
-    </a>
-    <a href="SG iDiák.html">
+    </a1>
+    <a2 href="SG iDiák.html">
     <button2 style="background-color:aqua;color: white;border:none;border-radius: 12px;font-family: verdana;font-size: 30px;margin-left: 25px;text-decoration:none;">
         <span>
         Órarend
         </span>
     </button2>
-    </a>
-    <a href="tron.html">
+    </a2>
+    <a3 href="tron.html">
     <button3 style="background-color:aqua;color: white;border:none;border-radius: 12px;font-family: verdana;font-size: 30px;margin-left: 25px;text-decoration:none;">
         <span>
         Tron
         </span>
     </button3>
-    </a>
+    </a3>
 </body>
 </html>
 
