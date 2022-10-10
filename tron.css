@@ -1,7 +1,10 @@
 body {
     user-select: none;
     text-align: center;
-    background-color:aqua;
+    background-image:url(https://img.freepik.com/free-vector/circuits-blue-red-gradient-digital-background_23-2148821701.jpg?w=996&t=st=1665395614~exp=1665396214~hmac=bef344890e3353b00acdddcb73058e5afb76fdf9f8fd6cde660d6eac30d0d63b)
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;    
     color: red;
     text-shadow: 1px 1px 3px rgb(23, 20, 20);
 }
