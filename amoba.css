@@ -1,7 +1,10 @@
 body {
     user-select: none;
     text-align: center;
-    background-color: rgb(252, 228, 197);
+    background-image: url(https://img.freepik.com/free-photo/motherboard-circuit-technology-background-gradient-green_53876-124656.jpg?size=626&ext=jpg&ga=GA1.2.604991310.1665395132);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     color: rgb(22, 61, 69);
     text-shadow: 1px 1px 3px rgb(23, 20, 20);
 }
