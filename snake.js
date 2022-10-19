@@ -72,7 +72,7 @@ function update() {
     for (let i = 0; i < snakeBody.length; i++) {
         if (snakeX == snakeBody[i][0] && snakeY == snakeBody[i][1]) {
             gameOver = true;
-            alert("Game Over! Press F5 to restart!");
+            alert("A játéknak vége...F5 az újraindításhoz!");
         }
     }
 }
