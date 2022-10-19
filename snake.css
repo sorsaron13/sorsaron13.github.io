@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+body {
+    background-image: url(https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=996&t=st=1666171387~exp=1666171987~hmac=2f9ac896276fc4d3db36c673e92fd071ea65f6746709443c67587f79275e0b21);
+    background-size: cover;
+    background-position: center;
+    height: relative;
+    font-family: Verdana;
+    text-align: center;
+}
+.banner-text{
+    text-align: center;
+    color: aqua;
+}
+.banner-text h1{
+    font-size: 60px;
+    font-family: Verdana;
+    margin-top: 25px;
+}
+.banner-text p{
+    font-size: 25px;
+    font-family: Verdana;
+    margin-top: 50px;
+}
+.banner-btn{
+    margin: 70px auto 0;
+    text-align: center;
+
+}
+#main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 100px;
+    padding: 12px 0;
+    background-color: aqua;
+    color: black;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+    font-family: Verdana;
+    font-weight: bold
+
+}
