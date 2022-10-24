@@ -66,7 +66,7 @@ function update() {
     //game over conditions
     if (snakeX < 0 || snakeX > cols*blockSize || snakeY < 0 || snakeY > rows*blockSize) {
         gameOver = true;
-        alert("Game Over! Press F5 to restart!");
+        alert("A játéknak vége...F5 az újraindításhoz!");
     }
 
     for (let i = 0; i < snakeBody.length; i++) {
