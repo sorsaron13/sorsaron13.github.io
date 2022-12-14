@@ -1,0 +1,13 @@
+body{
+    background-image: url(https://imagizer.imageshack.com/img922/674/wFf1nU.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+button{
+    background-color: red;
+    margin-left: 850px;
+    margin-top: 100px;
+    border: 2px solid white;
+    color: white;
+}
