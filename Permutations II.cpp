@@ -1,8 +1,4 @@
-/*
-Problem Name: Permutations II
-Problem Link: https://cses.fi/problemset/task/1075
-Author: Sachin Srivastava (mrsac7)
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
