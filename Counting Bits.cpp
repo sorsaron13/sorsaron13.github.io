@@ -1,8 +1,4 @@
-/*
-Problem Name: Counting Bits
-Problem Link: https://cses.fi/problemset/task/1146
-Author: Sachin Srivastava (mrsac7)
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
